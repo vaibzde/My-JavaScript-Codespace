@@ -24,7 +24,7 @@ function printSubsequence(arr,n){
     for(i=0;i<subsequence.length;i++){
         sw.push(subsequence[i])
         let temp;
-        temp = [...subsequence[i]]
+        temp = [...subsequence[i]]//imp syntax[...arr[i]]
         temp.unshift(arr[n])
         sw.push(temp)
     }

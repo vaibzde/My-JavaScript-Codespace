@@ -1,6 +1,6 @@
 function factorial(x){
     //base call
-    if(x==1){
+    if(x==1 || x==0){
         return 1;
     }
     
