@@ -1,4 +1,9 @@
 //selection sort
+/*
+if we have any unsoted array, then this method will select the right method and putting it in correct position
+
+here we will do less swaping
+*/
 function selectionSort(arr){
     let n = arr.length
     for(let i = 0; i<n-1; i++){
