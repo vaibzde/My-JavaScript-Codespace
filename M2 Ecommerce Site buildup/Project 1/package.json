@@ -1,0 +1,14 @@
+{
+  "name": "proj1-demo",
+  "version": "1.0.0",
+  "description": "very beginer project, a demo, learning npm and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Vaibhav Dewangan",
+  "license": "ISC"
+}
