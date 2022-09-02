@@ -40,21 +40,3 @@ Object.prototype.__proto__
 //is NULL
 
 //.....................................................................................................
-
-let temp = {
-    name : `Vaibhev`,
-    age : 23
-  }
-  
-  //let see the object prototype og temp
-  console.log(temp.__proto__)//here the o/p is Object.prototype
-  //now let create the object with temp
-  
-  const temp1 = Object.create(temp)
-  
-  console.log(temp1)//here the o/p is empty
-  console.log(temp1.__proto__)//here the o/p is temp object
-  
-  console.log(temp1.__proto__.__proto__)//here the o/p is Object.prototype
-  
-  

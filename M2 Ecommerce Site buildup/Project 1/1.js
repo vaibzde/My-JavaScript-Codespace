@@ -8,5 +8,5 @@ b+= a;
 console.log("code finished")
 //with this code, we can simply understand the asyncronous operation and understand the setTimeout Function
 //
-let car = new Object(2,3,2,3);
+let car = new Object());
 console.log(car)

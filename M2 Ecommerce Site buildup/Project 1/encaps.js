@@ -37,5 +37,5 @@ let p1 = new Person(`Rohan`)//Here we have created the object instance with the 
 p1.setAge = 22 //not p1.setAge(22), as it is for set and get
 console.log(p1.printIntro())
 console.log(p1)
-
+console.log(p1.getAge)// get age and set age is working as property not as method
 console.log(p1.address)//static object is not get accessed by the object instance of the class

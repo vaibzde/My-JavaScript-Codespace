@@ -28,6 +28,8 @@ let macBook = new Laptop("macBookM2",`M2 Processor`, `16 GB`)
 console.log(macBook)
 
 
+//Watching this method
+
 let temp = {
     name :  `Ram`,
     age: 22,
@@ -38,3 +40,7 @@ let temp = {
 }
 
 console.log(temp.intro())
+
+//this always execute current execution
+
+//to acess the static variable, we can directly access through class name
