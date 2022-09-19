@@ -1,0 +1,107 @@
+html,body {
+    margin: 0;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+
+#nav a.topimage {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 10px;
+}
+
+#middle {
+    align-items: center;
+   justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+}
+
+#logo {
+    text-align: center;
+    size: 70%;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 750px;
+    padding-left: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 201, 201);
+}
+
+#buttons {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 5px;
+    cursor: pointer;
+    background: rgb(249, 188, 188);
+    border-radius: 3px;
+
+}
+
+#links {
+    margin-top: 2px;
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-content {
+    background: rgb(255, 161, 110);
+    border-top: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#searchbar:hover {
+    box-shadow: 0 0 5px 1px rgb(120, 218, 254);
+}
+
+#searchicon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+}
+
+.button:hover {
+    box-shadow: 0 0 2px 1px rgb(237, 132, 255);
+    border: 2px solid transparent;
+}
