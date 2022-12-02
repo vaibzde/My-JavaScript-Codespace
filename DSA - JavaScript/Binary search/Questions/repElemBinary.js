@@ -18,6 +18,7 @@ function repElem(arr, target){
         else if(arr[mid]>target){
             high = mid - 1;
         }
+        
         else{
             low = mid + 1;
         }
@@ -38,3 +39,7 @@ function repElem(arr, target){
 
 let ai = [1,2,2,3,4,5,5,5,6,7,8,999,1111]
 console.log(repElem(ai,5))
+
+
+
+
